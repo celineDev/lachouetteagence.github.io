@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("../img/texture-paper.png");
     background-size: 280px 280px;
+    z-index: -20;
 }
 
 .b-parallax {
@@ -362,6 +363,14 @@ a:hover {
     z-index: 2;
 }
 
+.index-10 {
+    z-index: -10;
+}
+
+.index-20 {
+    z-index: -20;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -477,6 +486,11 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: #FFFFFF!important;
+}
+.icon-md:hover {
+    transition: 200ms;
+    transform: scale(1.1);
 }
 
 .icon-lg {
@@ -737,6 +751,8 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .portfolio-thumb {
@@ -753,7 +769,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(117, 93, 70, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,16 +787,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FF976C;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FF976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #FF976C;
+    color: #333333!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -823,6 +839,10 @@ h4 {
 
 .bg-presentation {
     background-image: url("../img/image-de-presentation.jpg");
+}
+
+blockquote, cite {
+    color: #575757;
 }
 
 @media (max-width: 1024px) {
