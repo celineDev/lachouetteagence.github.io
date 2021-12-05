@@ -374,6 +374,10 @@ a:hover {
     margin-bottom: 30px;
 }
 
+/* .grey {
+    color: #333333!important;
+} */
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -489,7 +493,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
-    color: #FFFFFF!important;
+    color: #575757!important;
 }
 .icon-md:hover {
     transition: 200ms;
@@ -797,7 +801,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #FF976C;
-    color: #333333!important;
+    color: #575757!important;
 }
 
 .btn-atomic-tangerine:hover {
