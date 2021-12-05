@@ -362,6 +362,18 @@ a:hover {
     z-index: 2;
 }
 
+.font-18 {
+    font-size: 18px;
+}
+
+.weight-bold {
+    font-weight: bold;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -742,8 +754,6 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-    font-weight: bold;
-    font-size: 15px;
 }
 
 .portfolio-thumb {
