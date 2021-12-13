@@ -639,16 +639,19 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
+/* p.text-center */
 p {
     font-size: 16px;
+    max-width: 320px;
+    margin: 0 auto 10px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -675,6 +678,8 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    max-width: 600px;
+    margin: 20px auto 10px;
 }
 
 h3 {
@@ -682,11 +687,13 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+    max-width: 320px;
+    margin: 10px auto 20px;
 }
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -795,6 +802,10 @@ h4 {
 
 blockquote {
     border: none !important;
+    max-width: 560px;
+    margin: 0 auto 20px;
+    font-style: italic;
+    font-size: 20px;
 }
 
 blockquote, cite {
@@ -803,6 +814,7 @@ blockquote, cite {
 
 cite {
     font-size: 16px;
+    font-style: initial;
 }
 
 address {
@@ -814,6 +826,9 @@ address > a:hover {
     color: #B35245!important;
 }
 
+.font-20 {
+    font-size: 20px;
+}
 .font-18 {
     font-size: 18px;
 }
@@ -833,6 +848,11 @@ label {
 .grid {
     display: flex;
     align-items: center;
+}
+
+ul.footer {
+    list-style: none;
+    padding-left: 0;
 }
 
 @media (max-width: 1024px) {
@@ -1094,5 +1114,9 @@ label {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    p{
+        max-width: 500px;
     }
 }
